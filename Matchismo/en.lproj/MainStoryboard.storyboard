@@ -32,9 +32,205 @@
                                     <action selector="touchCardButton:" destination="2" eventType="touchUpInside" id="VVs-VY-3zI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3G-Cz-hRM">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="8LY-nU-BKb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="stanford.png">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="A♣" backgroundImage="blank card rounded corner.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="2" eventType="touchUpInside" id="yK5-1W-MtG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7N-Dy-hSM">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="VlD-98-BDm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="stanford.png">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="A♣" backgroundImage="blank card rounded corner.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="2" eventType="touchUpInside" id="C4c-lV-rNo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYa-tU-64t">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="stanford.png">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="A♣" backgroundImage="blank card rounded corner.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="2" eventType="touchUpInside" id="7fw-QF-OIt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXy-G0-jdo">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="7fi-dr-AYI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="stanford.png">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="A♣" backgroundImage="blank card rounded corner.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="2" eventType="touchUpInside" id="e2O-Q7-Dgu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AoI-cy-rOG">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="stanford.png">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="A♣" backgroundImage="blank card rounded corner.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="2" eventType="touchUpInside" id="tOq-Jy-bkR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3b9-en-JPl">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="stanford.png">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="A♣" backgroundImage="blank card rounded corner.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="2" eventType="touchUpInside" id="v6c-yJ-edv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWh-fz-G3n">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="stanford.png">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="A♣" backgroundImage="blank card rounded corner.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="2" eventType="touchUpInside" id="cn6-iR-4va"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Zx-5y-xad">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="hxQ-0Z-x1V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="stanford.png">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="A♣" backgroundImage="blank card rounded corner.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="2" eventType="touchUpInside" id="fqE-JX-eTv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIl-2L-WJo">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="stanford.png">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="A♣" backgroundImage="blank card rounded corner.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="2" eventType="touchUpInside" id="mXb-YS-D7F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IO9-DZ-XWj">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="stanford.png">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="A♣" backgroundImage="blank card rounded corner.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="2" eventType="touchUpInside" id="Ls6-ey-2vc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="voY-sI-veA">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="stanford.png">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="A♣" backgroundImage="blank card rounded corner.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="2" eventType="touchUpInside" id="ILy-DB-7qX"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Flips: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TmO-Rv-oaj">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="128" id="nWY-7w-kHa"/>
+                                    <constraint firstAttribute="width" constant="88" id="tv1-nx-mNq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Score: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZjP-1x-OdV">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="va8-rs-ftu"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -43,14 +239,69 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="TmO-Rv-oaj" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="0Mo-Na-V8D"/>
-                            <constraint firstItem="sz8-pO-XaJ" firstAttribute="top" secondItem="3" secondAttribute="top" constant="171" id="DC1-eY-VMy"/>
-                            <constraint firstItem="TmO-Rv-oaj" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="WbC-dz-bfX"/>
-                            <constraint firstItem="sz8-pO-XaJ" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="iZV-R2-qaj"/>
+                            <constraint firstItem="XWh-fz-G3n" firstAttribute="leading" secondItem="3b9-en-JPl" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="33U-TW-oMu"/>
+                            <constraint firstItem="6Zx-5y-xad" firstAttribute="top" secondItem="nXy-G0-jdo" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="86W-nV-fH1"/>
+                            <constraint firstItem="nXy-G0-jdo" firstAttribute="top" secondItem="AoI-cy-rOG" secondAttribute="top" type="default" id="8Oj-B0-jK7"/>
+                            <constraint firstAttribute="bottom" secondItem="TmO-Rv-oaj" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="9fW-ea-ujK"/>
+                            <constraint firstItem="b7N-Dy-hSM" firstAttribute="leading" secondItem="w3G-Cz-hRM" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="BID-Tg-7k0"/>
+                            <constraint firstItem="AoI-cy-rOG" firstAttribute="leading" secondItem="nXy-G0-jdo" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Dhm-ay-920"/>
+                            <constraint firstItem="3b9-en-JPl" firstAttribute="top" secondItem="b7N-Dy-hSM" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Drv-pu-s2Y"/>
+                            <constraint firstItem="pIl-2L-WJo" firstAttribute="leading" secondItem="AoI-cy-rOG" secondAttribute="leading" type="default" id="Eay-dr-ozH"/>
+                            <constraint firstItem="pIl-2L-WJo" firstAttribute="leading" secondItem="6Zx-5y-xad" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="FT0-bn-SKh"/>
+                            <constraint firstItem="b7N-Dy-hSM" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="FVO-pa-Ng5"/>
+                            <constraint firstItem="6Zx-5y-xad" firstAttribute="bottom" secondItem="pIl-2L-WJo" secondAttribute="bottom" type="default" id="HKx-pL-l23"/>
+                            <constraint firstItem="nXy-G0-jdo" firstAttribute="top" secondItem="sz8-pO-XaJ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Jjh-6i-9Pb"/>
+                            <constraint firstItem="3b9-en-JPl" firstAttribute="leading" secondItem="b7N-Dy-hSM" secondAttribute="leading" type="default" id="M4X-we-XEI"/>
+                            <constraint firstItem="3b9-en-JPl" firstAttribute="top" secondItem="XWh-fz-G3n" secondAttribute="top" type="default" id="Mkk-6o-2UF"/>
+                            <constraint firstItem="AoI-cy-rOG" firstAttribute="top" secondItem="w3G-Cz-hRM" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="P8e-Od-K21"/>
+                            <constraint firstItem="voY-sI-veA" firstAttribute="leading" secondItem="IO9-DZ-XWj" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="PFf-4P-Fq8"/>
+                            <constraint firstItem="w3G-Cz-hRM" firstAttribute="leading" secondItem="sz8-pO-XaJ" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="RcK-Ay-g8g"/>
+                            <constraint firstItem="IO9-DZ-XWj" firstAttribute="bottom" secondItem="pIl-2L-WJo" secondAttribute="bottom" type="default" id="RkL-h7-1ON"/>
+                            <constraint firstItem="qYa-tU-64t" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="SKg-rs-TNC"/>
+                            <constraint firstItem="voY-sI-veA" firstAttribute="top" secondItem="IO9-DZ-XWj" secondAttribute="top" type="default" id="VJZ-1J-7Ex"/>
+                            <constraint firstItem="sz8-pO-XaJ" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="VVL-Bu-Kfo"/>
+                            <constraint firstItem="w3G-Cz-hRM" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="VyH-ED-WhZ"/>
+                            <constraint firstItem="XWh-fz-G3n" firstAttribute="leading" secondItem="qYa-tU-64t" secondAttribute="leading" type="default" id="WRX-vv-0I7"/>
+                            <constraint firstItem="voY-sI-veA" firstAttribute="bottom" secondItem="IO9-DZ-XWj" secondAttribute="bottom" type="default" id="WYY-aF-8wr"/>
+                            <constraint firstItem="ZjP-1x-OdV" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="ZzD-zl-xmJ"/>
+                            <constraint firstItem="AoI-cy-rOG" firstAttribute="top" secondItem="3b9-en-JPl" secondAttribute="top" type="default" id="azf-Uw-Q1Q"/>
+                            <constraint firstAttribute="trailing" secondItem="voY-sI-veA" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="bPI-PF-zat"/>
+                            <constraint firstItem="voY-sI-veA" firstAttribute="top" secondItem="XWh-fz-G3n" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="cbZ-9i-t1f"/>
+                            <constraint firstItem="IO9-DZ-XWj" firstAttribute="top" secondItem="3b9-en-JPl" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="crB-zL-BsH"/>
+                            <constraint firstItem="nXy-G0-jdo" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="dtH-FB-Taz"/>
+                            <constraint firstItem="IO9-DZ-XWj" firstAttribute="leading" secondItem="pIl-2L-WJo" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="hud-cN-ZHM"/>
+                            <constraint firstItem="6Zx-5y-xad" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="j6C-BF-rf6"/>
+                            <constraint firstAttribute="trailing" secondItem="XWh-fz-G3n" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="l0Z-Su-3pW"/>
+                            <constraint firstItem="XWh-fz-G3n" firstAttribute="top" secondItem="qYa-tU-64t" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="mAX-6M-Pba"/>
+                            <constraint firstItem="sz8-pO-XaJ" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="nIF-2j-obT"/>
+                            <constraint firstAttribute="trailing" secondItem="qYa-tU-64t" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="pQV-RK-9mZ"/>
+                            <constraint firstItem="AoI-cy-rOG" firstAttribute="leading" secondItem="w3G-Cz-hRM" secondAttribute="leading" type="default" id="qGD-BG-uhX"/>
+                            <constraint firstItem="3b9-en-JPl" firstAttribute="leading" secondItem="AoI-cy-rOG" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="qdA-FZ-l1o"/>
+                            <constraint firstItem="IO9-DZ-XWj" firstAttribute="top" secondItem="pIl-2L-WJo" secondAttribute="top" type="default" id="r1Z-Tq-Z3C"/>
+                            <constraint firstAttribute="trailing" secondItem="TmO-Rv-oaj" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="rNt-P1-uGp"/>
+                            <constraint firstItem="voY-sI-veA" firstAttribute="leading" secondItem="XWh-fz-G3n" secondAttribute="leading" type="default" id="suQ-la-IlI"/>
+                            <constraint firstItem="pIl-2L-WJo" firstAttribute="top" secondItem="6Zx-5y-xad" secondAttribute="top" type="default" id="u7V-t9-bST"/>
+                            <constraint firstAttribute="bottom" secondItem="ZjP-1x-OdV" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="uXO-vE-rRe"/>
+                            <constraint firstItem="qYa-tU-64t" firstAttribute="leading" secondItem="b7N-Dy-hSM" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="v8R-Lm-nVc"/>
+                            <constraint firstItem="pIl-2L-WJo" firstAttribute="top" secondItem="AoI-cy-rOG" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="vR6-3D-czf"/>
+                            <constraint firstItem="IO9-DZ-XWj" firstAttribute="leading" secondItem="3b9-en-JPl" secondAttribute="leading" type="default" id="yIN-bF-s0Q"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="flipsLabel" destination="TmO-Rv-oaj" id="2KY-mY-XQq"/>
+                        <outlet property="scoreLabel" destination="ZjP-1x-OdV" id="vbH-ox-btD"/>
+                        <outletCollection property="cardButtons" destination="sz8-pO-XaJ" id="Tz2-we-8Hc"/>
+                        <outletCollection property="cardButtons" destination="w3G-Cz-hRM" id="1XE-zk-vMm"/>
+                        <outletCollection property="cardButtons" destination="b7N-Dy-hSM" id="bZV-Sd-GpB"/>
+                        <outletCollection property="cardButtons" destination="qYa-tU-64t" id="KKj-a2-F3z"/>
+                        <outletCollection property="cardButtons" destination="nXy-G0-jdo" id="TNN-4F-Qro"/>
+                        <outletCollection property="cardButtons" destination="AoI-cy-rOG" id="2Fm-Cc-egM"/>
+                        <outletCollection property="cardButtons" destination="3b9-en-JPl" id="ARP-r1-hzc"/>
+                        <outletCollection property="cardButtons" destination="XWh-fz-G3n" id="fGr-Kb-r86"/>
+                        <outletCollection property="cardButtons" destination="6Zx-5y-xad" id="l7c-Bv-Z6X"/>
+                        <outletCollection property="cardButtons" destination="pIl-2L-WJo" id="pcl-vP-6ZE"/>
+                        <outletCollection property="cardButtons" destination="IO9-DZ-XWj" id="x7j-1S-Vgr"/>
+                        <outletCollection property="cardButtons" destination="voY-sI-veA" id="hRe-BF-cY0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -67,6 +318,8 @@
             <relationships>
                 <relationship kind="action" name="touchCardButton:" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="flipsLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
+                <relationship kind="outletCollection" name="cardButtons" candidateClass="UIButton"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
