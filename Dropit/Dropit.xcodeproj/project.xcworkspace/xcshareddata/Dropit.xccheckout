@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>61DA9403-208A-410E-B0C7-5F9D0889171C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Dropit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3576E20F-615C-44DA-AE6D-BAD48520A627</key>
+		<string>ssh://github.com/Miliion-Zhang/Standford-iOS-course.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Dropit/Dropit.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3576E20F-615C-44DA-AE6D-BAD48520A627</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/Miliion-Zhang/Standford-iOS-course.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3576E20F-615C-44DA-AE6D-BAD48520A627</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3576E20F-615C-44DA-AE6D-BAD48520A627</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cs193p</string>
+		</dict>
+	</array>
+</dict>
+</plist>
