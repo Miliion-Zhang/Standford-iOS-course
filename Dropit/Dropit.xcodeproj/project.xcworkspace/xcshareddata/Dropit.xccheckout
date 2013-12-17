@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>61DA9403-208A-410E-B0C7-5F9D0889171C</string>
+	<string>DC36F520-B9E0-4031-BE91-006D20E2ECCE</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Dropit</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3576E20F-615C-44DA-AE6D-BAD48520A627</key>
+		<key>A899ECE1-2AF3-46A7-9255-05F35089A07D</key>
 		<string>ssh://github.com/Miliion-Zhang/Standford-iOS-course.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Dropit/Dropit.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3576E20F-615C-44DA-AE6D-BAD48520A627</key>
+		<key>A899ECE1-2AF3-46A7-9255-05F35089A07D</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,16 +25,16 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3576E20F-615C-44DA-AE6D-BAD48520A627</string>
+	<string>A899ECE1-2AF3-46A7-9255-05F35089A07D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3576E20F-615C-44DA-AE6D-BAD48520A627</string>
+			<string>A899ECE1-2AF3-46A7-9255-05F35089A07D</string>
 			<key>IDESourceControlWCCName</key>
-			<string>cs193p</string>
+			<string>Matchismo</string>
 		</dict>
 	</array>
 </dict>

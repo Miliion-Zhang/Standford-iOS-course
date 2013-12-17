@@ -8,11 +8,14 @@
 
 #import "DropitViewController.h"
 #import "DropitBehavior.h"
+#import "BezierPathView.h"
 
 @interface DropitViewController () <UIDynamicAnimatorDelegate>
-@property (weak, nonatomic) IBOutlet UIView *gameView;
+@property (weak, nonatomic) IBOutlet BezierPathView *gameView;
 @property (strong, nonatomic) UIDynamicAnimator *animator;
 @property (strong, nonatomic) DropitBehavior *dropitBehavior;
+@property (strong, nonatomic) UIAttachmentBehavior *attachment;
+@property (strong, nonatomic) UIView *droppingView;
 @end
 
 @implementation DropitViewController
@@ -110,7 +113,40 @@ static const CGSize DROP_SIZE = {40, 40};
     dropView.backgroundColor = [self randomColor];
     [self.gameView addSubview:dropView];
     
+    self.droppingView = dropView;
+    
     [self.dropitBehavior addItem:dropView];
+}
+
+- (IBAction)pan:(UIPanGestureRecognizer *)sender
+{
+    CGPoint gusturePoint = [sender locationInView:self.gameView];
+    if (sender.state == UIGestureRecognizerStateBegan) {
+        [self attachDroppingViewToPoint:gusturePoint];
+    } else if (sender.state == UIGestureRecognizerStateChanged) {
+        self.attachment.anchorPoint = gusturePoint;
+    } else if (sender.state == UIGestureRecognizerStateEnded) {
+        [self.animator removeBehavior:self.attachment];
+        self.gameView.path = nil;
+    }
+}
+
+- (void)attachDroppingViewToPoint:(CGPoint)anchorPoint
+{
+    if (self.droppingView) {
+        self.attachment = [[UIAttachmentBehavior alloc] initWithItem:self.droppingView attachedToAnchor:anchorPoint];
+        UIView *droppingView = self.droppingView;
+        __weak DropitViewController *controler = self;
+        self.attachment.action = ^{
+            UIBezierPath *path = [[UIBezierPath alloc] init];
+            [path moveToPoint:controler.attachment.anchorPoint];
+            [path addLineToPoint:droppingView.center];
+            controler.gameView.path = path;
+        };
+        
+        self.droppingView = nil;
+        [self.animator addBehavior:self.attachment];
+    }
 }
 
 - (UIColor *)randomColor
